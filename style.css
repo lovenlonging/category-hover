@@ -1,0 +1,35 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+body {
+    max-width: 1200px;
+    width: 100%;
+}
+main {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view {
+    display: flex;
+}
+
+.nav-link:hover {
+    color: black;
+    
+}
+
+.view>div {
+    display: none;
+}
+
+.view .view01 {
+    display: block;
+}
